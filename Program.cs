@@ -14,6 +14,7 @@ namespace Frontline
         static string Str = "(id,created,employee(id,firstname,employeeType(id), lastname),location)";
         static void Main(string[] args)
         {
+			//comment
             Str = Str.Replace(" ", "");
             foreach (char elem in Str)
             {
